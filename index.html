@@ -4,9 +4,110 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pet shop</title>
+
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Sora:wght@100..800&display=swap");
+
+      .sora {
+        font-family: "Sora", serif;
+      }
+      .adlam-display-regular {
+        font-family: "ADLaM Display", serif;
+      }
+    </style>
+    <style type="text/tailwindcss">
+      @theme {
+        --color-bg: #fff9f4;
+        --color-text-primary: #111111;
+        --color-btn-primary: #ffdc26;
+      }
+    </style>
   </head>
   <body>
-    <h1 class="text-3xl font-bold underline">Hello world!</h1>
+    <!-- header start-->
+
+    <header>
+      <!-- navbar -->
+      <div class="bg-bg md:py-5">
+        <div
+          class="flex justify-between w-full border border-text-primary px-4 py-3 md:w-9/10 xl:w-8/10 lg:w-9/10 md:mx-auto md:border-none"
+        >
+          <div class="flex">
+            <img src=" c1-assets/logo-header.png" alt="" />
+            <div class="items-center ml-3 hidden md:flex">
+              <h3
+                class="sora font-normal text-3xl md:text-xl lg:text-2xl xl:text-3xl"
+              >
+                Browse<span class="text-btn-primary">4</span>Pets
+              </h3>
+            </div>
+          </div>
+          <div
+            class="hidden md:flex md:gap-2 lg:gap-4 xl:gap-8 items-center sora font-normal lg:text-xl md:text-xs text-text-primary"
+          >
+            <ul>
+              <li><a href="">Find a pet</a></li>
+            </ul>
+            <ul>
+              <li><a href="">Breeds</a></li>
+            </ul>
+            <ul>
+              <li><a href="">Contact us</a></li>
+            </ul>
+          </div>
+          <div class="hidden md:flex">
+            <img class="w-6" src="c1-assets/bell-svgrepo-com.svg" alt="" />
+            <img
+              class="w-6 mx-3"
+              src="c1-assets/search-svgrepo-com.svg"
+              alt=""
+            />
+            <button
+              class="border border-btn-primary rounded-lg font-normal text-xl sora md:py-1 md:px-3 lg:py-2 lg:px-5 xl:py-2 xl:px-7 md:text-xs lg:text-xl"
+            >
+              Login
+            </button>
+            <button
+              class="md:py-1 md:px-3 lg:py-2 lg:px-5 xl:py-2 xl:px-7 ml-3 bg-btn-primary rounded-lg font-normal md:text-xs lg:text-xl sora"
+            >
+              Register
+            </button>
+          </div>
+
+          <div class="mt-2 md:hidden">
+            <img src="c1-assets/menu.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <!-- banner -->
+      <div class="mt-8 ml-5 flex flex-col-reverse">
+        <div
+          class="relative bottom-24 lg:bottom-35 xl:bottom-50 z-0 w-full md:w-9/10 xl:w-8/10 lg:w-9/10 md:mx-auto"
+        >
+          <img src="c1-assets/cat-big.png" alt="" />
+        </div>
+        <div class="z-10 w-full md:w-9/10 xl:w-8/10 lg:w-9/10 md:mx-auto">
+          <h1
+            class="adlam-display-regular font-normal text-3xl lg:text-5xl xl:text-6xl mr-5 md:mr-80 xl:mr-160 text-text-primary"
+          >
+            Pamper Your Pet, <br />
+            Because They Deserve the Bes
+          </h1>
+          <p
+            class="sora font-normal text-xl mr-7 md:mr-80 xl:mr-160 mt-4 text-text-primary"
+          >
+            Discover a world of treats, toys, and essentials handpicked for your
+            furry friends. Shop now and make tails wag with joy!
+          </p>
+          <button
+            class="sora py-3 px-8 bg-btn-primary text-xl font-normal rounded-lg mt-3"
+          >
+            Find a pet
+          </button>
+        </div>
+      </div>
+    </header>
+    <!-- header end -->
   </body>
 </html>
