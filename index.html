@@ -27,6 +27,7 @@
         --color-linear-2: rgba(172, 210, 253, 1);
         --color-linear-3: rgba(255, 249, 244, 1);
         --color-linear-4: rgba(249, 223, 138, 1);
+        --color-footer: rgba(255, 220, 38, 0.5);
       }
     </style>
   </head>
@@ -121,18 +122,14 @@
     <main>
       <!-- categories section  -->
       <section>
-        <div
-          class="relative bottom-12 ml-5 md:w-9/10 2xl:w-7/10 xl:w-8/10 lg:w-9/10 md:mx-auto"
-        >
+        <div class="relative bottom-12 ml-5">
           <h1
-            class="adlam-display-regular font-normal text-2xl text-text-primary lg:text-3xl xl:text-4xl"
+            class="adlam-display-regular font-normal text-2xl text-text-primary"
           >
             Browse By Categories
           </h1>
         </div>
-        <div
-          class="flex flex-wrap gap-3 justify-center md:w-9/10 2xl:w-7/10 xl:w-8/10 lg:w-9/10 md:mx-auto"
-        >
+        <div class="flex flex-wrap gap-3 justify-center">
           <div class="bg-bg-card px-11 pt-8 pb-10 rounded-lg">
             <img
               class="bg-white p-6 rounded-full"
@@ -185,7 +182,7 @@
             </h3>
             <p class="mt-3 sora font-normal text-xl text-center">3 items</p>
           </div>
-          <div class="bg-bg-card px-11 pt-8 pb-10 rounded-lg">
+          <div class="bg-bg-card px-12 pt-8 pb-10 rounded-lg">
             <img
               class="bg-white p-6 rounded-full"
               src="c1-assets/mouse-cartoon.png"
@@ -198,7 +195,7 @@
             </h3>
             <p class="mt-3 sora font-normal text-xl text-center">3 items</p>
           </div>
-          <div class="bg-bg-card px-11 pt-8 pb-10 rounded-lg">
+          <div class="bg-bg-card px-12 pt-8 pb-10 rounded-lg">
             <img
               class="bg-white p-6 rounded-full"
               src="c1-assets/rabbit-cartoon.png"
@@ -214,508 +211,254 @@
         </div>
       </section>
       <!-- Trending section -->
-      <section class="xl:bg-bg px-3 mt-12 pb-20 xl:mt-32">
-        <div
-          class="xl:pt-36 w-full 2xl:w-7/10 md:w-9/10 xl:w-8/10 lg:w-9/10 md:mx-auto"
-        >
+      <section>
+        <div>
           <h1
-            class="text-2xl adlam-display-regular text-text-primary lg:mr-20 mb-12 font-normal lg:text-4xl"
+            class="adlam-display-regular font-normal text-2xl ml-5 mt-14 mb-8"
           >
             Trending Pet Products
           </h1>
         </div>
-        <div
-          class="flex-col flex lg:flex-row gap-6 w-full 2xl:w-7/10 md:w-9/10 xl:w-8/10 lg:w-9/10 md:mx-auto"
-        >
-          <div class="bg-bg-card w-full lg:w-5/12 rounded-xl pt-8 pl-8">
-            <h1
-              class="adlam-display-regular text-2xl text-text-primary lg:mr-20 font-normal lg:text-3xl"
-            >
+        <!-- t-srt for dog -->
+        <div class="mx-5">
+          <div class="relative bg-bg-card rounded-xl pl-7 pr-11">
+            <h1 class="adlam-display-regular font-normal text-3xl pt-11">
               T- Shirt For Dogs
             </h1>
-            <p
-              class="sora text-text-primary font-normal text-xl mt-3 lg:mr-20 xl:mr-7"
-            >
+            <p class="sora font-normal text-xl pt-6">
               Discover a world of treats, toys, and essentials handpicked for
             </p>
             <button
-              class="mb-12 sora text-text-primary font-normal text-xl mt-3 rounded-lg bg-white px-10 py-2"
+              class="sora font-normal text-xl py-2 px-8 mt-4 mb-50 border-transparent bg-white rounded-lg"
             >
               Shop Now
             </button>
-            <div class="relative flex justify-end xl:mr-10">
+            <img
+              class="absolute bottom-1 left-40"
+              src="c1-assets/cute-pet-small.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <!-- items -->
+        <div class="flex flex-wrap gap-5 mt-9 mx-5">
+          <div
+            class="flex py-3 pl-3 pr-12 rounded-xl border border-border-card"
+          >
+            <div>
               <img
-                class="absolute w-3/10 md:w-2/10 lg:w-5/10 bottom-1 md:left-110 lg:left-45 xl:-bottom-25 xl:left-45"
-                src="c1-assets/cute-pet-small.png"
+                class="p-2 border-transparent rounded-md bg-bg"
+                src="c1-assets/pet-couch.png"
                 alt=""
               />
             </div>
-          </div>
-          <div class="w-full justify-center xl:w-10/12 flex flex-wrap gap-2">
-            <div
-              class="flex p-4 gap-4 xl:gap-4 bg-white rounded-xl border border-border-card"
-            >
-              <div class="p-4 lg:p-4 bg-[#FFF9F4] rounded-xl">
-                <img src="c1-assets/pet-couch.png" alt="" />
+            <div class="ml-3">
+              <div class="flex gap-1 mt-[3px]">
+                <div><img src="c1-assets/star.png" alt="" /></div>
+
+                <p class="sora font-normal mt-[1px] text-[10px]">4.5</p>
               </div>
               <div>
-                <div class="flex gap-3">
-                  <div>
-                    <img class="pt-1" src="c1-assets/star.png" alt="" />
-                  </div>
-                  <h6 class="sora font-normal text-text-primary">4.5</h6>
-                </div>
-
-                <div class="mr-4 lg:mr-5 xl:mr-5">
-                  <h3
-                    class="sora mt-1 lg:mt-2 xl:mt-2 font-medium text-xl lg:text-xl text-text-primary"
-                  >
-                    Pet Bed
-                  </h3>
-                </div>
-                <div>
-                  <h4
-                    class="sora mt-1 lg:mt-2.5 xl:mt-2.5 font-medium text-xs text-text-primary"
-                  >
-                    $39.99
-                  </h4>
-                </div>
-              </div>
-            </div>
-            <div
-              class="flex p-4 gap-2 xl:gap-4 bg-white rounded-xl border border-border-card"
-            >
-              <div class="p-4 lg:p-4 bg-[#FFF9F4] rounded-xl">
-                <img src="c1-assets/pet-couch.png" alt="" />
-              </div>
-              <div>
-                <div class="flex gap-3">
-                  <div>
-                    <img class="pt-1" src="c1-assets/star.png" alt="" />
-                  </div>
-                  <h6 class="sora font-normal text-text-primary">4.5</h6>
-                </div>
-
-                <div class="mr-4 lg:mr-5 xl:mr-5">
-                  <h3
-                    class="sora mt-1 lg:mt-2 xl:mt-2 font-medium text-xl lg:text-xl text-text-primary"
-                  >
-                    Pet Bed
-                  </h3>
-                </div>
-                <div>
-                  <h4
-                    class="sora mt-1 lg:mt-2.5 xl:mt-2.5 font-medium text-xs text-text-primary"
-                  >
-                    $39.99
-                  </h4>
-                </div>
-              </div>
-            </div>
-            <div
-              class="flex p-4 gap-4 xl:gap-4 bg-white rounded-xl border border-border-card"
-            >
-              <div class="p-4 lg:p-4 bg-[#FFF9F4] rounded-xl">
-                <img src="c1-assets/pet-couch.png" alt="" />
-              </div>
-              <div>
-                <div class="flex gap-3">
-                  <div>
-                    <img class="pt-1" src="c1-assets/star.png" alt="" />
-                  </div>
-                  <h6 class="sora font-normal text-text-primary">4.5</h6>
-                </div>
-
-                <div class="mr-4 lg:mr-5 xl:mr-5">
-                  <h3
-                    class="sora mt-1 lg:mt-2 xl:mt-2 font-medium text-xl lg:text-xl text-text-primary"
-                  >
-                    Pet Bed
-                  </h3>
-                </div>
-                <div>
-                  <h4
-                    class="sora mt-1 lg:mt-2.5 xl:mt-2.5 font-medium text-xs text-text-primary"
-                  >
-                    $39.99
-                  </h4>
-                </div>
-              </div>
-            </div>
-            <div
-              class="flex p-4 gap-2 xl:gap-4 bg-white rounded-xl border border-border-card"
-            >
-              <div class="p-4 lg:p-4 bg-[#FFF9F4] rounded-xl">
-                <img src="c1-assets/pet-couch.png" alt="" />
-              </div>
-              <div>
-                <div class="flex gap-3">
-                  <div>
-                    <img class="pt-1" src="c1-assets/star.png" alt="" />
-                  </div>
-                  <h6 class="sora font-normal text-text-primary">4.5</h6>
-                </div>
-
-                <div class="mr-4 lg:mr-5 xl:mr-5">
-                  <h3
-                    class="sora mt-1 lg:mt-2 xl:mt-2 font-medium text-xl lg:text-xl text-text-primary"
-                  >
-                    Pet Bed
-                  </h3>
-                </div>
-                <div>
-                  <h4
-                    class="sora mt-1 lg:mt-2.5 xl:mt-2.5 font-medium text-xs text-text-primary"
-                  >
-                    $39.99
-                  </h4>
-                </div>
-              </div>
-            </div>
-            <div
-              class="flex p-4 gap-4 xl:gap-4 bg-white rounded-xl border border-border-card"
-            >
-              <div class="p-4 lg:p-4 bg-[#FFF9F4] rounded-xl">
-                <img src="c1-assets/pet-couch.png" alt="" />
-              </div>
-              <div>
-                <div class="flex gap-3">
-                  <div>
-                    <img class="pt-1" src="c1-assets/star.png" alt="" />
-                  </div>
-                  <h6 class="sora font-normal text-text-primary">4.5</h6>
-                </div>
-
-                <div class="mr-4 lg:mr-5 xl:mr-5">
-                  <h3
-                    class="sora mt-1 lg:mt-2 xl:mt-2 font-medium text-xl lg:text-xl text-text-primary"
-                  >
-                    Pet Bed
-                  </h3>
-                </div>
-                <div>
-                  <h4
-                    class="sora mt-1 lg:mt-2.5 xl:mt-2.5 font-medium text-xs text-text-primary"
-                  >
-                    $39.99
-                  </h4>
-                </div>
-              </div>
-            </div>
-            <div
-              class="flex p-4 gap-2 xl:gap-4 bg-white rounded-xl border border-border-card"
-            >
-              <div class="p-4 lg:p-4 bg-[#FFF9F4] rounded-xl">
-                <img src="c1-assets/pet-couch.png" alt="" />
-              </div>
-              <div>
-                <div class="flex gap-3">
-                  <div>
-                    <img class="pt-1" src="c1-assets/star.png" alt="" />
-                  </div>
-                  <h6 class="sora font-normal text-text-primary">4.5</h6>
-                </div>
-
-                <div class="mr-4 lg:mr-5 xl:mr-5">
-                  <h3
-                    class="sora mt-1 lg:mt-2 xl:mt-2 font-medium text-xl lg:text-xl text-text-primary"
-                  >
-                    Pet Bed
-                  </h3>
-                </div>
-                <div>
-                  <h4
-                    class="sora mt-1 lg:mt-2.5 xl:mt-2.5 font-medium text-xs text-text-primary"
-                  >
-                    $39.99
-                  </h4>
-                </div>
-              </div>
-            </div>
-            <div
-              class="flex p-4 gap-4 xl:gap-4 bg-white rounded-xl border border-border-card"
-            >
-              <div class="p-4 lg:p-4 bg-[#FFF9F4] rounded-xl">
-                <img src="c1-assets/pet-couch.png" alt="" />
-              </div>
-              <div>
-                <div class="flex gap-3">
-                  <div>
-                    <img class="pt-1" src="c1-assets/star.png" alt="" />
-                  </div>
-                  <h6 class="sora font-normal text-text-primary">4.5</h6>
-                </div>
-
-                <div class="mr-4 lg:mr-5 xl:mr-5">
-                  <h3
-                    class="sora mt-1 lg:mt-2 xl:mt-2 font-medium text-xl lg:text-xl text-text-primary"
-                  >
-                    Pet Bed
-                  </h3>
-                </div>
-                <div>
-                  <h4
-                    class="sora mt-1 lg:mt-2.5 xl:mt-2.5 font-medium text-xs text-text-primary"
-                  >
-                    $39.99
-                  </h4>
-                </div>
-              </div>
-            </div>
-            <div
-              class="flex p-4 gap-2 xl:gap-4 bg-white rounded-xl border border-border-card"
-            >
-              <div class="p-4 lg:p-4 bg-[#FFF9F4] rounded-xl">
-                <img src="c1-assets/pet-couch.png" alt="" />
-              </div>
-              <div>
-                <div class="flex gap-3">
-                  <div>
-                    <img class="pt-1" src="c1-assets/star.png" alt="" />
-                  </div>
-                  <h6 class="sora font-normal text-text-primary">4.5</h6>
-                </div>
-
-                <div class="mr-4 lg:mr-5 xl:mr-5">
-                  <h3
-                    class="sora mt-1 lg:mt-2 xl:mt-2 font-medium text-xl lg:text-xl text-text-primary"
-                  >
-                    Pet Bed
-                  </h3>
-                </div>
-                <div>
-                  <h4
-                    class="sora mt-1 lg:mt-2.5 xl:mt-2.5 font-medium text-xs text-text-primary"
-                  >
-                    $39.99
-                  </h4>
-                </div>
-              </div>
-            </div>
-            <div
-              class="flex p-4 gap-4 xl:gap-4 bg-white rounded-xl border border-border-card"
-            >
-              <div class="p-4 lg:p-4 bg-[#FFF9F4] rounded-xl">
-                <img src="c1-assets/pet-couch.png" alt="" />
-              </div>
-              <div>
-                <div class="flex gap-3">
-                  <div>
-                    <img class="pt-1" src="c1-assets/star.png" alt="" />
-                  </div>
-                  <h6 class="sora font-normal text-text-primary">4.5</h6>
-                </div>
-
-                <div class="mr-4 lg:mr-5 xl:mr-5">
-                  <h3
-                    class="sora mt-1 lg:mt-2 xl:mt-2 font-medium text-xl lg:text-xl text-text-primary"
-                  >
-                    Pet Bed
-                  </h3>
-                </div>
-                <div>
-                  <h4
-                    class="sora mt-1 lg:mt-2.5 xl:mt-2.5 font-medium text-xs text-text-primary"
-                  >
-                    $39.99
-                  </h4>
-                </div>
+                <h3 class="sora font-normal mt-[6px] text-xs">Pet Bed</h3>
+                <h3 class="sora font-normal mt-[5px] text-[10px]">$39.99</h3>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-      <section>
-        <div
-          class="xl:pt-36 w-full 2xl:w-7/10 md:w-9/10 xl:w-8/10 lg:w-9/10 md:mx-auto"
-        >
-          <h1
-            class="text-3xl adlam-display-regular text-text-primary lg:mr-20 mb-12 font-normal lg:text-4xl"
+          <div
+            class="flex py-3 pl-3 pr-12 rounded-xl border border-border-card"
           >
-            SALE UPTO
-            <span class="text-btn-primary text-5xl animate-bounce inline-block"
-              >60%</span
-            >
-          </h1>
-        </div>
-        <div
-          class="flex w-full 2xl:w-7/10 md:w-9/10 xl:w-8/10 lg:w-9/10 md:mx-auto"
-        >
-          <div class="flex flex-col lg:flex-row gap-2">
-            <div
-              class="flex p-4 gap-4 xl:gap-4 bg-white rounded-xl border border-border-card"
-            >
-              <div class="p-4 lg:p-4 bg-[#FFF9F4] rounded-xl">
-                <img src="c1-assets/t-shirt.png" alt="" />
-              </div>
-              <div>
-                <div class="mt-20 flex gap-3">
-                  <div>
-                    <img class="pt-1" src="c1-assets/star.png" alt="" />
-                  </div>
-                  <h6 class="sora font-normal text-text-primary">4.5</h6>
-                </div>
-
-                <div class="mr-4 lg:mr-5 xl:mr-5">
-                  <h3
-                    class="sora mt-1 lg:mt-2 xl:mt-2 font-medium text-xl lg:text-xl text-text-primary"
-                  >
-                    T-Shirt for dog
-                  </h3>
-                </div>
-                <div>
-                  <h4
-                    class="sora mt-1 lg:mt-2.5 xl:mt-2.5 font-medium text-xs text-text-primary line-through"
-                  >
-                    $39.99
-                  </h4>
-                  <h4
-                    class="sora mt-1 lg:mt-2.5 xl:mt-2.5 font-medium text-xl text-text-primary"
-                  >
-                    $18.69
-                  </h4>
-                </div>
-              </div>
+            <div>
+              <img
+                class="p-2 border-transparent rounded-md bg-bg"
+                src="c1-assets/pet-couch.png"
+                alt=""
+              />
             </div>
-            <div
-              class="flex p-4 gap-4 xl:gap-4 bg-white rounded-xl border border-border-card"
-            >
-              <div class="p-4 lg:p-4 bg-[#FFF9F4] rounded-xl">
-                <img src="c1-assets/t-shirt.png" alt="" />
+            <div class="ml-3">
+              <div class="flex gap-1 mt-[3px]">
+                <div><img src="c1-assets/star.png" alt="" /></div>
+
+                <p class="sora font-normal mt-[1px] text-[10px]">4.5</p>
               </div>
               <div>
-                <div class="mt-20 flex gap-3">
-                  <div>
-                    <img class="pt-1" src="c1-assets/star.png" alt="" />
-                  </div>
-                  <h6 class="sora font-normal text-text-primary">4.5</h6>
-                </div>
-
-                <div class="mr-4 lg:mr-5 xl:mr-5">
-                  <h3
-                    class="sora mt-1 lg:mt-2 xl:mt-2 font-medium text-xl lg:text-xl text-text-primary"
-                  >
-                    T-Shirt for dog
-                  </h3>
-                </div>
-                <div>
-                  <h4
-                    class="sora mt-1 lg:mt-2.5 xl:mt-2.5 font-medium text-xs text-text-primary line-through"
-                  >
-                    $39.99
-                  </h4>
-                  <h4
-                    class="sora mt-1 lg:mt-2.5 xl:mt-2.5 font-medium text-xl text-text-primary"
-                  >
-                    $18.69
-                  </h4>
-                </div>
-              </div>
-            </div>
-            <div
-              class="flex p-4 gap-4 xl:gap-4 bg-white rounded-xl border border-border-card"
-            >
-              <div class="p-4 lg:p-4 bg-[#FFF9F4] rounded-xl">
-                <img src="c1-assets/t-shirt.png" alt="" />
-              </div>
-              <div>
-                <div class="mt-20 flex gap-3">
-                  <div>
-                    <img class="pt-1" src="c1-assets/star.png" alt="" />
-                  </div>
-                  <h6 class="sora font-normal text-text-primary">4.5</h6>
-                </div>
-
-                <div class="mr-4 lg:mr-5 xl:mr-5">
-                  <h3
-                    class="sora mt-1 lg:mt-2 xl:mt-2 font-medium text-xl lg:text-xl text-text-primary"
-                  >
-                    T-Shirt for dog
-                  </h3>
-                </div>
-                <div>
-                  <h4
-                    class="sora mt-1 lg:mt-2.5 xl:mt-2.5 font-medium text-xs text-text-primary line-through"
-                  >
-                    $39.99
-                  </h4>
-                  <h4
-                    class="sora mt-1 lg:mt-2.5 xl:mt-2.5 font-medium text-xl text-text-primary"
-                  >
-                    $18.69
-                  </h4>
-                </div>
+                <h3 class="sora font-normal mt-[6px] text-xs">Pet Bed</h3>
+                <h3 class="sora font-normal mt-[5px] text-[10px]">$39.99</h3>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-      <section>
-        <div
-          class="xl:pt-25 w-full 2xl:w-7/10 md:w-9/10 xl:w-8/10 lg:w-9/10 md:mx-auto"
-        >
-          <h1
-            class="text-3xl adlam-display-regular text-text-primary lg:mr-20 mb-12 font-normal lg:text-4xl"
+          <div
+            class="flex py-3 pl-3 pr-12 rounded-xl border border-border-card"
           >
-            Everyday low Price
-          </h1>
-        </div>
-        <div
-          class="pt-1 w-full 2xl:w-7/10 md:w-9/10 xl:w-8/10 lg:w-9/10 md:mx-auto"
-        >
-          <div class="flex flex-col lg:flex-row gap-3">
-            <div
-              class="w-full lg:w-6/10 flex bg-linear-to-r from-linear-1 to-linear-2 border-transparent rounded-lg"
-            >
-              <div class="absolute xl:static py-10 p-5 xl:py-32 xl:p-20">
-                <h3 class="invisible xl:visible sora font-normal text-xl">
-                  Under Price
-                </h3>
-                <h2
-                  class="mt-3 adlam-display-regular text-xl xl:text-3xl font-normal"
-                >
-                  Pet Grooming Mitt
-                </h2>
-                <p
-                  class="invisible xl:visible mt-2 adlam-display-regular text-2xl text-white font-normal"
-                >
-                  (Easy Hair Removal)
-                </p>
-                <p
-                  class="adlam-display-regular text-5xl mt-4 font-normal xl:text-text-primary text-white"
-                >
-                  $7.99
-                </p>
+            <div>
+              <img
+                class="p-2 border-transparent rounded-md bg-bg"
+                src="c1-assets/pet-couch.png"
+                alt=""
+              />
+            </div>
+            <div class="ml-3">
+              <div class="flex gap-1 mt-[3px]">
+                <div><img src="c1-assets/star.png" alt="" /></div>
+
+                <p class="sora font-normal mt-[1px] text-[10px]">4.5</p>
               </div>
-              <div class="relative xl:static left-65">
-                <img
-                  class="w-5/10 xl:w-full"
-                  src="c1-assets/cute-dog-mid.png"
-                  alt=""
-                />
+              <div>
+                <h3 class="sora font-normal mt-[6px] text-xs">Pet Bed</h3>
+                <h3 class="sora font-normal mt-[5px] text-[10px]">$39.99</h3>
               </div>
             </div>
-            <div
-              class="w-full lg:w-4/10 flex bg-linear-to-r from-linear-3 to-linear-4 border-transparent rounded-lg"
-            >
-              <div class="absolute py-10 ml-8">
-                <h1
-                  class="adlam-display-regular text-xl xl:text-3xl font-normal"
-                >
-                  T-Shirt for Dogs
-                </h1>
-                <p
-                  class="adlam-display-regular text-5xl mt-4 font-normal text-[#FFDC26]"
-                >
-                  $7.99
-                </p>
+          </div>
+          <div
+            class="flex py-3 pl-3 pr-12 rounded-xl border border-border-card"
+          >
+            <div>
+              <img
+                class="p-2 border-transparent rounded-md bg-bg"
+                src="c1-assets/pet-couch.png"
+                alt=""
+              />
+            </div>
+            <div class="ml-3">
+              <div class="flex gap-1 mt-[3px]">
+                <div><img src="c1-assets/star.png" alt="" /></div>
+
+                <p class="sora font-normal mt-[1px] text-[10px]">4.5</p>
               </div>
-              <div class="relative top-1 left-60 xl:top-20 xl:left-44">
-                <img
-                  class="w-1/2 xl:w-8/10"
-                  src="c1-assets/cute-pet-mid.png"
-                  alt=""
-                />
+              <div>
+                <h3 class="sora font-normal mt-[6px] text-xs">Pet Bed</h3>
+                <h3 class="sora font-normal mt-[5px] text-[10px]">$39.99</h3>
+              </div>
+            </div>
+          </div>
+          <div
+            class="flex py-3 pl-3 pr-12 rounded-xl border border-border-card"
+          >
+            <div>
+              <img
+                class="p-2 border-transparent rounded-md bg-bg"
+                src="c1-assets/pet-couch.png"
+                alt=""
+              />
+            </div>
+            <div class="ml-3">
+              <div class="flex gap-1 mt-[3px]">
+                <div><img src="c1-assets/star.png" alt="" /></div>
+
+                <p class="sora font-normal mt-[1px] text-[10px]">4.5</p>
+              </div>
+              <div>
+                <h3 class="sora font-normal mt-[6px] text-xs">Pet Bed</h3>
+                <h3 class="sora font-normal mt-[5px] text-[10px]">$39.99</h3>
+              </div>
+            </div>
+          </div>
+          <div
+            class="flex py-3 pl-3 pr-12 rounded-xl border border-border-card"
+          >
+            <div>
+              <img
+                class="p-2 border-transparent rounded-md bg-bg"
+                src="c1-assets/pet-couch.png"
+                alt=""
+              />
+            </div>
+            <div class="ml-3">
+              <div class="flex gap-1 mt-[3px]">
+                <div><img src="c1-assets/star.png" alt="" /></div>
+
+                <p class="sora font-normal mt-[1px] text-[10px]">4.5</p>
+              </div>
+              <div>
+                <h3 class="sora font-normal mt-[6px] text-xs">Pet Bed</h3>
+                <h3 class="sora font-normal mt-[5px] text-[10px]">$39.99</h3>
+              </div>
+            </div>
+          </div>
+          <div
+            class="flex py-3 pl-3 pr-12 rounded-xl border border-border-card"
+          >
+            <div>
+              <img
+                class="p-2 border-transparent rounded-md bg-bg"
+                src="c1-assets/pet-couch.png"
+                alt=""
+              />
+            </div>
+            <div class="ml-3">
+              <div class="flex gap-1 mt-[3px]">
+                <div><img src="c1-assets/star.png" alt="" /></div>
+
+                <p class="sora font-normal mt-[1px] text-[10px]">4.5</p>
+              </div>
+              <div>
+                <h3 class="sora font-normal mt-[6px] text-xs">Pet Bed</h3>
+                <h3 class="sora font-normal mt-[5px] text-[10px]">$39.99</h3>
+              </div>
+            </div>
+          </div>
+          <div
+            class="flex py-3 pl-3 pr-12 rounded-xl border border-border-card"
+          >
+            <div>
+              <img
+                class="p-2 border-transparent rounded-md bg-bg"
+                src="c1-assets/pet-couch.png"
+                alt=""
+              />
+            </div>
+            <div class="ml-3">
+              <div class="flex gap-1 mt-[3px]">
+                <div><img src="c1-assets/star.png" alt="" /></div>
+
+                <p class="sora font-normal mt-[1px] text-[10px]">4.5</p>
+              </div>
+              <div>
+                <h3 class="sora font-normal mt-[6px] text-xs">Pet Bed</h3>
+                <h3 class="sora font-normal mt-[5px] text-[10px]">$39.99</h3>
+              </div>
+            </div>
+          </div>
+          <div
+            class="flex py-3 pl-3 pr-12 rounded-xl border border-border-card"
+          >
+            <div>
+              <img
+                class="p-2 border-transparent rounded-md bg-bg"
+                src="c1-assets/pet-couch.png"
+                alt=""
+              />
+            </div>
+            <div class="ml-3">
+              <div class="flex gap-1 mt-[3px]">
+                <div><img src="c1-assets/star.png" alt="" /></div>
+
+                <p class="sora font-normal mt-[1px] text-[10px]">4.5</p>
+              </div>
+              <div>
+                <h3 class="sora font-normal mt-[6px] text-xs">Pet Bed</h3>
+                <h3 class="sora font-normal mt-[5px] text-[10px]">$39.99</h3>
+              </div>
+            </div>
+          </div>
+          <div
+            class="flex py-3 pl-3 pr-12 rounded-xl border border-border-card"
+          >
+            <div>
+              <img
+                class="p-2 border-transparent rounded-md bg-bg"
+                src="c1-assets/pet-couch.png"
+                alt=""
+              />
+            </div>
+            <div class="ml-3">
+              <div class="flex gap-1 mt-[3px]">
+                <div><img src="c1-assets/star.png" alt="" /></div>
+
+                <p class="sora font-normal mt-[1px] text-[10px]">4.5</p>
+              </div>
+              <div>
+                <h3 class="sora font-normal mt-[6px] text-xs">Pet Bed</h3>
+                <h3 class="sora font-normal mt-[5px] text-[10px]">$39.99</h3>
               </div>
             </div>
           </div>
